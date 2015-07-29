@@ -1,0 +1,59 @@
+@charset "utf-8";
+/* User: Eric Ma  
+/* Email: zjafei@gmail.com
+/* Date: 2015/5/30 */
+/* Time: 15:03 */
+.CUSTOM_CATEGORIES{
+    background-color: #f8f8f8;
+}
+.CUSTOM_CATEGORIES .ui-dialog-arrow-b, .CUSTOM_CATEGORIES .ui-dialog-arrow-b, .CUSTOM_CATEGORIES .ui-dialog-arrow-b {
+    border-top: 8px solid #f8f8f8;
+}
+.custom-categories-box {
+    background-color: #f8f8f8;
+    min-height: 230px;
+    font-size: 0;
+}
+
+.custom-categories-box .search-select-category-list {
+    background-color: #fff;
+    border: 1px solid #d5d5d5;
+    border-left-width: 0;
+    height: 230px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    font-size: 14px;
+}
+.custom-categories-box .search-select-category-list span{
+    display: block;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+.custom-categories-box > div:first-child > .search-select-category-list {
+    border-left-width: 1px;
+}
+
+.custom-categories-box > div > .search-select-category-list > span:hover, .custom-categories-box > div > .search-select-category-list > span.cur {
+    background-color: #3399dd;
+    color: #fff;
+}
+
+a.custom-categories-close{
+    font-size: 28px;
+    text-decoration: none;
+}
+.custom-categories-foot{
+    background-color: #f8f8f8;
+    overflow: auto;
+    padding-top: 10px;
+}
+.custom-categories-foot a{
+    font-size: 12px;
+    margin-right: 10px;
+    text-decoration: none;
+    position: relative;
+    top: 7px;
+}
+.custom-categories-foot .pull-right{
+    margin-left: 10px;
+}
